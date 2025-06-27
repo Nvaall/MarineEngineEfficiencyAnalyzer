@@ -11,6 +11,9 @@
 *.vshost.exe
 *.vshost.exe.config
 
+#TestIgnores?
+
+
 # Build results
 [Dd]ebug/
 [Rr]elease/
