@@ -7,8 +7,7 @@
 std::vector<float> convertStringVectorToFloatVector(const std::vector<std::string>& stringVec)
 {
     std::vector<float> floatVec;
-    // Pre-allocate memory to avoid reallocations, good for performance
-    floatVec.reserve(stringVec.size());
+    floatVec.reserve(stringVec.size()); // Pre-allocate memory to avoid reallocations
 
     // Use std::transform to apply std::stof to each element
     std::transform(stringVec.begin(), stringVec.end(),

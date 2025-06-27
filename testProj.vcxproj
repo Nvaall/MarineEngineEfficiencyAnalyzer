@@ -178,11 +178,11 @@
     </QtMoc>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\EngineEfficiencyAnalyzer\csvIntoColumns.cpp" />
-    <ClCompile Include="..\EngineEfficiencyAnalyzer\stringToFloatVector.cpp" />
+    <ClCompile Include="csvIntoColumns.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="mainwindow.cpp" />
     <ClCompile Include="qcustomplot.cpp" />
+    <ClCompile Include="stringToFloatVector.cpp" />
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="mainwindow.h" />
@@ -205,8 +205,8 @@
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\EngineEfficiencyAnalyzer\csvIntoColumns.h" />
-    <ClInclude Include="..\EngineEfficiencyAnalyzer\stringToFloatVector.h" />
+    <ClInclude Include="csvIntoColumns.h" />
+    <ClInclude Include="stringToFloatVector.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <Import Project="$(QtMsBuild)\qt.targets" Condition="Exists('$(QtMsBuild)\qt.targets')" />

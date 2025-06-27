@@ -36,10 +36,10 @@
     <ClCompile Include="qcustomplot.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\EngineEfficiencyAnalyzer\csvIntoColumns.cpp">
+    <ClCompile Include="csvIntoColumns.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\EngineEfficiencyAnalyzer\stringToFloatVector.cpp">
+    <ClCompile Include="stringToFloatVector.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -60,10 +60,10 @@
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\EngineEfficiencyAnalyzer\csvIntoColumns.h">
+    <ClInclude Include="csvIntoColumns.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\EngineEfficiencyAnalyzer\stringToFloatVector.h">
+    <ClInclude Include="stringToFloatVector.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
