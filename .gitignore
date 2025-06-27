@@ -1,0 +1,140 @@
+# Visual Studio specific files
+##############################
+
+# User-specific files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vssscc
+*.vshost.exe
+*.vshost.exe.config
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+ARM/
+ARM64/
+bin/
+obj/
+*.exe
+*.dll
+*.lib
+*.exp
+*.pdb
+*.idb
+*.log
+*.res
+*.sbr
+*.bsc
+*.ncb
+*.aps
+
+# Intermediate files
+*.obj
+*.o
+*.ipch
+*.pch
+*.tlog
+*.temp
+*.tmp
+*.vcproj.*.opendb
+*.vcxproj.*.opendb
+*.vcpch
+*.vsidx # Files that caused your error
+
+# SQL Server Compact Edition
+*.sdf
+*.opensdf
+
+# Code analysis
+*.sarif
+
+# Other temporary files
+*.cache
+*.sdf
+*.db
+*.testsettings
+*.trx
+*.local
+*.deploy
+*.bak
+*_i.c
+*_p.c
+*.ilk
+
+# VS Code (if you also use it for this project)
+.vscode/
+
+# Qt / qmake specific files
+##########################
+
+# Generated source files (from MOC, UI, QRC)
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+
+# qmake build system files
+Makefile*
+*.pro.user # Qt Creator user settings (if you ever open it in Creator)
+*.user # Might also be Visual Studio user file
+*.pri.user
+*.rc.user
+*.qrc.user
+*.ui.user
+*.ts
+
+# Qt build directories (might be named differently based on setup)
+# If your build output goes into a custom folder, add it here.
+# For example, if you build into a 'build' folder:
+build/
+# Or if you use separate debug/release folders
+# Debug/
+# Release/
+
+# Operating System specific files
+#################################
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Generic ignored patterns
+##########################
+
+# Package Manager files (e.g., NuGet)
+packages/
+*.nupkg
+.nuget/
+
+# Logs and diagnostics
+*.log
+*.diagnostics
+
+# Sensitive / Personal / Large Files (Add as needed!)
+###################################################
+
+# Example: Local configuration files
+config.local.json
+.env
+secret_keys.h
+
+# Example: Large data files you don't want in Git
+data/*.csv # Only if you DON'T want Book1.csv (or other data CSVs) in repo.
+           # If you want Book1.csv to be tracked, DO NOT add this line.
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# Example: Executables outside of standard build directories (less common)
+my_application.exe
