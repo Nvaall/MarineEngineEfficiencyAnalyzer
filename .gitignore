@@ -12,7 +12,7 @@
 *.vshost.exe.config
 
 #TestIgnores?
-
+Book1.csv
 
 # Build results
 [Dd]ebug/
